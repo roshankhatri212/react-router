@@ -2,6 +2,23 @@
   background-image: url(https://reactjs.org/logo-og.png);
   background-image: url(https://cdn.pixabay.com/photo/2014/08/15/06/16/imprint-418594_960_720.jpg);
   background-image: url(https://cdn.pixabay.com/photo/2017/12/02/14/38/contact-us-2993000_960_720.jpg);
+}
+
+.header {
+  
+  height: 10vh;
+  width: 10vw;
+  background-color:black;
+  text-align:start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav{
+  background-color:#282c34;
+  color: white;
+  padding: 40px;
+  font-family: Sans-Serif;
   text-align: center;
 }
 
@@ -9,19 +26,6 @@
 
 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
 
